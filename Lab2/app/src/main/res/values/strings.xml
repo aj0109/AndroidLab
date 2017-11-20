@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab-2</string>
+    <string name="Description">This is a simple menu and options driven application</string>
+    <string name="Guidance">Select the type you want to make changes from the options menu Right Corner(three dots)</string>
+    <string name="Desp">Click on the list area to select</string>
+    <string name="ShapeGuide">This is a Shape Generator</string>
+    <string name="ShapeDesp">1. Long Press Selection of Shape in First Blank\n2. Long Press Selection of Color in the Second Blank</string>
+    <string name="ColorDesp">Select a color to change the background color of Current screen</string>
+</resources>
