@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Basic-Lab-1</string>
+    <string name="Description">Hello User!\n\nThis is a Basic App. It is a general survey that accepts general input from the user.\n\nLet\'s Get to Know You First.</string>
+    <string name="Enter">Enter your Name</string>
+    <string name="FN">First Name</string>
+    <string name="LN">Last Name</string>
+    <string name="Submit">NEXT</string>
+    <string name="Submit1">SUBMIT</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Intro">Select the appropriate data for Survey</string>
+    <string name="Gender">Choose Gender</string>
+    <string name="Point1">Male</string>
+    <string name="Point2">Female</string>
+    <string name="Point3">Other</string>
+    <string name="BDay">Choose D.O.B.(DD/MM/YYYY)</string>
+    <string name="Status">Marital Status</string>
+    <string name="Point11">Single</string>
+    <string name="Point12">Married</string>
+
+</resources>

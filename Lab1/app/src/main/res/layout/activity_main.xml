@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text1"
+        android:text="@string/Description"
+        android:padding="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text2"
+        android:text="@string/Enter"
+        android:layout_below="@+id/Text1"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LText1"
+        android:text="@string/FN"
+        android:layout_below="@+id/Text2"
+        android:padding="5dp"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edit1"
+        android:inputType="text"
+        android:layout_alignBottom="@+id/LText1"
+        android:layout_toEndOf="@+id/LText1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LText2"
+        android:text="@string/LN"
+        android:padding="5dp"
+        android:layout_below="@+id/LText1"
+        android:layout_marginLeft="100dp" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edit2"
+        android:inputType="text"
+        android:layout_alignBottom="@+id/LText2"
+        android:layout_toEndOf="@+id/LText1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SubmitButton"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Submit"
+        android:onClick="onClick"/>
+
+</RelativeLayout>

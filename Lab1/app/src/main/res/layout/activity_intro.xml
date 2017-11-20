@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Page2Welcome"
+        android:text=""
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Page2Intro"
+        android:text="@string/Intro"
+        android:layout_below="@+id/Page2Welcome"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Gender"
+        android:text="@string/Gender"
+        android:layout_below="@+id/Page2Intro"
+        android:padding="5dp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radio"
+        android:layout_toRightOf="@id/Gender"
+        android:layout_below="@id/Page2Intro"
+        android:checkedButton="@+id/rb1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:text="@string/Point1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:text="@string/Point2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb3"
+            android:text="@string/Point3"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="@string/BDay"
+        android:padding="12dp"
+        android:layout_below="@id/Gender"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/BdayEdit"
+        android:layout_below="@+id/Gender"
+        android:layout_toEndOf="@+id/tv1"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Marital"
+        android:text="@string/Status"
+        android:layout_below="@+id/BdayEdit"
+        android:padding="10dp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radio1"
+        android:layout_toRightOf="@id/Marital"
+        android:layout_below="@id/BdayEdit"
+        android:checkedButton="@+id/rb4">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb4"
+            android:text="@string/Point11"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb5"
+            android:text="@string/Point12"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Submit1"
+        android:text="@string/Submit1"
+        android:onClick="end_page"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="30dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Return"
+        android:text="BACK"
+        android:onClick="previous_page"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/Submit1"
+        android:layout_margin="30dp" />
+
+</RelativeLayout>
